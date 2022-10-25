@@ -1,0 +1,139 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.navbar{
+  width: 80px;
+  border-right: 1px solid #e6e6e6;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav{
+  margin: auto;
+}
+.nav-item{
+  margin: 20px 0 20px 0;
+}
+.nav-item:hover path{
+    fill: black;
+}
+svg{
+  display: block;
+  margin: auto;
+}
+.content{
+  width: 70%;
+  padding: 56px;
+  margin-left: 80px;
+  margin-right: 30%;
+}
+.content-head{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.content-head-link{
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 20px;
+  font-family: Arial;
+}
+#Following{
+  color: gray;
+}
+#Following:hover{
+  color: black;
+}
+#Recommended{
+  color: black;
+}
+.content-body{
+  margin-top: 20px;
+}
+.content-block{
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 15px;
+}
+.content-post{
+  font-family: Arial;
+}
+.user-name{
+  padding-left: 10px;
+}
+.content-img{
+  align-self: center;
+}
+.user{
+  display: flex;
+  align-items: center;
+}
+.content-text{
+  padding-right:25%;
+  line-height: 25px;
+}
+.content-button{
+  display: flex;
+}
+button{
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 7px 20px 7px 20px;
+  background-color: #F5F5F5;
+}
+button:hover{
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+}
+button:active{
+  border: 1px solid #F5F5F5;
+}
+.min{
+  align-self: center;
+}
+.search{
+  height: 100vh;
+  width: 25%;
+  padding: 20px;
+  border-left: 1px solid #e6e6e6;
+  position: fixed;
+  right: 0;
+}
+input{
+  margin-top: 56px;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 25px;
+}
+.search-header{
+  display: flex;
+  align-items: center;
+  margin: 20px 0 20px 0;
+  font-family: arial;
+  font-weight: bold;
+}
+#search-svg{
+  margin-left: 0;
+  margin-right: 10px;
+}
+.search-block{
+  font-family: Arial;
+}
+#search-link{
+  font-family: Arial;
+  text-decoration: none;
+  color: #1A8917;
+}
+.user-name-s{
+  margin: 0 0 0 10px;
+}
