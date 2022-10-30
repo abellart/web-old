@@ -18,15 +18,12 @@ body{
 .nav{
   margin: auto;
 }
-.nav-item{
-  margin: 20px 0 20px 0;
-}
 .nav-item:hover path{
     fill: black;
 }
 svg{
   display: block;
-  margin: auto;
+  margin: 20px auto;
 }
 .content{
   width: 70%;
@@ -86,7 +83,7 @@ button{
   margin-right: 10px;
   border: 1px solid white;
   border-radius: 25px;
-  padding: 7px 20px 7px 20px;
+  padding: 7px 20px;
   background-color: #F5F5F5;
 }
 button:hover{
@@ -114,11 +111,12 @@ input{
   padding: 10px;
   border: 1px solid #e6e6e6;
   border-radius: 25px;
+  outline: none;
 }
 .search-header{
   display: flex;
   align-items: center;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   font-family: arial;
   font-weight: bold;
 }
@@ -135,5 +133,5 @@ input{
   color: #1A8917;
 }
 .user-name-s{
-  margin: 0 0 0 10px;
+  margin-left: 10px;
 }
