@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dfd3c5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: #85776e;
+  box-shadow: 0 0 10px gray;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  height: 60px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.header-logo {
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 32px;
+}
+
+.header-search {
+  padding: 10px;
+  border: 2px solid #85776e;
+  border-radius: 15px;
+  outline: none;
+}
+
+.header-button {
+  background-color: #dfd3c5;
+  color: #85776e;
+  padding: 10px;
+  border: 2px solid #85776e;
+  border-radius: 15px;
+  margin-right: 32px;
+}
+
+.header-button:hover {
+  background-color: #85776e;
+  color: #fff;
+  border: 2px solid #dfd3c5;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book {
+  width: 240px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.book:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s;
+}
+.book:hover .book-cover {
+  box-shadow: 0 0 10px gray;
+}
+.book-cover {
+  width: 100%;
+}
+
+.book-info {
+  padding: 10px 0;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #a1460f;
+  margin-bottom: 10px;
+}
+
+.book-category, .book-author {
+  font-size: 14px;
+  color: #85776e;
+}
